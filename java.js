@@ -1038,7 +1038,7 @@ function search() {
             number.includes(searchvalue)) {
             newarray.push(TableDatas[i]);
         }
-    }
+    } 
     pagination(newarray);
     // searching()
     if(TableDatas.length>6){
